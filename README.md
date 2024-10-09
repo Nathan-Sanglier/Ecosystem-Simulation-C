@@ -6,7 +6,12 @@ Le projet permet la simulation d'un écosystème rempli de Bestioles capable de 
 
 ## Download and usage
 
-Placez-vous dans le répertoire où se trouve le code, puis dans le terminal tapez les commandes suivantes:
+Clonez ou téléchargez le reopsitory Github. Avant de lancer la simulation, vous devez installer la librarie `X11`, nécéssaire pour l'affichage de l'interface graphique. Placez-vous dans le répertoire où se trouve le code, puis dans le terminal tapez les commandes suivantes:
+
+    sudo apt-get install libx11-dev 
+
+Vous pouvez ensuite lancer la simulation à l'aide des commandes:
+
 `Commandes linux & MacOS:`
 
     make
